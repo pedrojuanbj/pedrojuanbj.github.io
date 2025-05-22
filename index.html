@@ -1,156 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aura Reina – Digital Showcase</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: sans-serif;
-      background: #0d0d0d;
-      color: #e0e0e0;
-      line-height: 1.6;
-    }
-    header {
-      background: #1a1a1a;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2rem;
-      color: #00ffd9;
-    }
-    nav {
-      background: #141414;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: #ccc;
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: #00ffd9;
-    }
-    section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .portfolio-project {
-      margin-bottom: 3rem;
-    }
-    .portfolio-project h2 {
-      color: #ff00aa;
-      border-bottom: 1px solid #444;
-      margin-bottom: 1rem;
-    }
-    .portfolio-project img {
-      max-width: 100%;
-      height: auto;
-      border: 2px solid #00ffd9;
-      border-radius: 8px;
-      margin: 0.5rem 0;
-      display: block;
-    }
-    footer {
-      background: #111;
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+  <title>Pedro J. Buigues | Computational Biophysicist</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Aura Reina – Digital Showcase</h1>
-  </header>
 
+<header>
+  <h1>Pedro J. Buigues</h1>
   <nav>
-    <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
+    <div class="burger"><div></div><div></div><div></div></div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#interests">Research Interests</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#projects">Other Projects</a></li>
+      <li><a href="#contributions">Contributions</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
+</header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m <strong>Aura Reina</strong>, an illustrator and animator passionate about storytelling through images, currently based in London. My work is influenced by video games, anime, and fashion, blending vibrant aesthetics with narrative depth.</p>
-  </section>
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm <strong>Dr. Pedro J. Buigues</strong>, a Postdoctoral Researcher at the <strong>Italian Institute of Technology (IIT)</strong>.</p>
+  <p>I recently completed my PhD in Computational Biophysics in the <em>Rosta Group</em> (University College London), where I developed machine‑learning‑enhanced sampling methods for molecular dynamics simulations.</p>
+  <p>I hold a BSc in Biotechnology and an MSc in Advanced Molecular &amp; Therapeutic Biotechnology.</p>
+  <ul>
+    <li>Proficient in Python, bash/Linux, and HPC environments</li>
+    <li>Extensive experience with MD engines (NAMD, AMBER, GROMACS, OPENMM)</li>
+    <li>Machine‑learning toolkits (TensorFlow, PyTorch, scikit‑learn)</li>
+    <li>Visualization &amp; analysis (PyMOL, VMD, MDAnalysis)</li>
+    <li>NVIDIA Deep Learning Institute – Fundamentals of Deep Learning Certificate</li>
+  </ul>
+  <p>✨ Outside the lab I enjoy musicals, drama, and choir singing.</p>
+</section>
 
-  <section id="portfolio">
-    <div class="portfolio-project">
-      <h2>Arcangel</h2>
-      <img src="images/arcangel-1.jpg" alt="Arcangel Concept 1">
-      <img src="images/arcangel-2.jpg" alt="Arcangel Concept 2">
-    </div>
+<section id="interests">
+  <h2>Research Interests</h2>
+  <p>Artificial Intelligence–driven drug discovery, enhanced sampling, biomolecular kinetics &amp; thermodynamics, and data‑centric approaches to understanding chemical biology.</p>
+</section>
 
-    <div class="portfolio-project">
-      <h2>Memory Unlock</h2>
-      <!-- Repeat for 12 images -->
-      <!-- Example -->
-      <img src="images/mu-1.jpg">
-      <img src="images/mu-2.jpg">
-      <!-- ...mu-12.jpg -->
-    </div>
+<section id="publications">
+  <h2>Publications</h2>
+  <p>A full list is available on my <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>. Selected highlights:</p>
+  <ol>
+    <li><a href="paper1.html">Paper Title One (2025)</a></li>
+    <li><a href="paper2.html">Paper Title Two (2024)</a></li>
+    <li><a href="paper3.html">Paper Title Three (2023)</a></li>
+  </ol>
+</section>
 
-    <div class="portfolio-project">
-      <h2>Fairy Tale Kind Of</h2>
-      <img src="images/ft-1.jpg">
-      <img src="images/ft-2.jpg">
-      <img src="images/ft-3.jpg">
-      <img src="images/ft-4.jpg">
-      <img src="images/ft-5.jpg">
-    </div>
+<section id="highlights">
+  <h2>Highlights</h2>
+  <p>Snapshots of recent work and recognition.</p>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x250?text=Highlight+1" alt="">
+    <img src="https://via.placeholder.com/400x250?text=Highlight+2" alt="">
+    <img src="https://via.placeholder.com/400x250?text=Highlight+3" alt="">
+  </div>
+</section>
 
-    <div class="portfolio-project">
-      <h2>Artist Room</h2>
-      <img src="images/artist-room.jpg">
-    </div>
+<section id="projects">
+  <h2>Other Projects</h2>
+  <ul>
+    <li>Open‑source tools for MD trajectory featurization</li>
+    <li>Deep‑learning models for ligand binding affinity prediction</li>
+    <li>Interactive dashboards for cheminformatics datasets</li>
+  </ul>
+</section>
 
-    <div class="portfolio-project">
-      <h2>Max</h2>
-      <img src="images/max-1.jpg">
-    </div>
+<section id="contributions">
+  <h2>Community Contributions</h2>
+  <p>Bug reports, pull requests, and tutorials for several open‑source packages, including <em>MDAnalysis</em>, <em>OpenMM‑tools</em>, and <em>biotite</em>.</p>
+</section>
 
-    <div class="portfolio-project">
-      <h2>Reina Jacket</h2>
-      <img src="images/chaqueta-1.jpg">
-      <img src="images/chaqueta-2.jpg">
-      <img src="images/chaqueta-3.jpg">
-    </div>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Feel free to <a href="mailto:email@example.com">email me</a> or connect on <a href="https://www.linkedin.com">LinkedIn</a>.</p>
+</section>
 
-    <div class="portfolio-project">
-      <h2>Cats and Litters: The Great Cat-astrophe</h2>
-      <img src="images/card-0.jpg">
-      <img src="images/card-1.jpg">
-      <img src="images/card-2.jpg">
-      <img src="images/card-3.jpg">
-      <img src="images/card-4.jpg">
-      <img src="images/card-5.jpg">
-      <img src="images/card-6.jpg">
-      <img src="images/card-7.jpg">
-      <img src="images/card-8.jpg">
-      <img src="images/card-9.jpg">
-      <img src="images/card-10.jpg">
-    </div>
-  </section>
+<footer>
+  &copy; 2025 Pedro J. Buigues
+</footer>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>You can reach me via:</p>
-    <p>Email: <a href="mailto:hail_reira@hotmail.com">hail_reira@hotmail.com</a><br>
-       Instagram: <a href="https://instagram.com/hail_reira" target="_blank">@HAIL_REIRA</a></p>
-  </section>
-
-  <footer>
-    &copy; 2025 Aura Reina. All rights reserved.
-  </footer>
+<script src="script.js"></script>
 </body>
 </html>
